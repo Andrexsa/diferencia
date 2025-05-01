@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="Proyect.html">Inicio</a></li>
+                <li><a href="proyecto1.html">proyecto 1</a></li>
+                <li><a href="proyecto2.html">proyecto 2</a></li>
+                <li><a href="#">proyecto 3</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Proyectos JavaScript</h1>
+        <h2>este es el proyecto 1</h2>
+        <p>este proyecto que tenemos aqui , lo que va a hacer es una operacion de desviacion estadan de los numeros que desees calcular</p>
+            <p>Ingrese números separados por comas para calcular estadísticas:</p>
+            
+            <input type="text" id="numerosInput" placeholder="Ejemplo: 10,20,30,40">
+            <button onclick="main()">Calcular</button>
+        
+            <h2>Resultados:</h2>
+            <p><strong>Promedio:</strong> <span id="promedio"></span></p>
+            <p><strong>Diferencias con el promedio:</strong> <span id="diferencia"></span></p>
+            <p><strong>Desviación Estándar:</strong> <span id="desviacion"></span></p>
+        
+        
+        
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+</html>
